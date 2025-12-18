@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Blocks gamestore
+ * Plugin Name:       Blocks Gamestore
  * Description:       Example block scaffolded with Create Block tool.
  * Version:           0.1.0
  * Requires at least: 6.7
