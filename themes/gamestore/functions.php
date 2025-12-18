@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package vek-miass
+ * @package game-store
  * @since 1.0.0
  */
 
@@ -15,12 +15,12 @@
  *
  * @return void
  */
-function vek_miass_styles() {
+function gamestore_styles() {
 	wp_enqueue_style(
-		'vek-miass-style',
+		'gamestore-style',
 		get_stylesheet_uri(),
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
 }
-add_action( 'wp_enqueue_scripts', 'vek_miass_styles' );
+add_action( 'wp_enqueue_scripts', 'gamestore_styles' );

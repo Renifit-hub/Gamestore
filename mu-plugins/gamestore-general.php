@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name: Vekmiass General
- * Description: Core Code for Vekmiass website.
+ * Plugin Name: gamestore General
+ * Description: Core Code for gamestore website.
  * Version: 1.0
- * Author: Vekmiass
- * Author URI: https://vekmiass.ru
+ * Author: gamestore
+ * Author URI: https://gamestore.ru
  * License: GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-function vekmiass_remove_dashboard_widgets() {
+function gamestore_remove_dashboard_widgets() {
   global $wp_meta_boxes;
 
     unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity']);
@@ -25,4 +25,4 @@ function vekmiass_remove_dashboard_widgets() {
     unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_site_health']);
     
 }
-add_action('wp_dashboard_setup', 'vekmiass_remove_dashboard_widgets' );
+add_action('wp_dashboard_setup', 'gamestore_remove_dashboard_widgets' );
